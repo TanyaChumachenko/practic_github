@@ -3,7 +3,31 @@
         <link rel="stylesheet" href="style1.css">
 
     </head>
-<body>
-<p><h4>Текст</h4></p>
-</body>
+    <body background-color=greenyellow>
+        <i style="font-size:16pt;font-weight:bold">Зареєструйтесь будь-ласка</i><br>
+        <form method=post action=www.my.com>
+        <p style="font-family:Ariel; font-style:italic; font-variant:caps; font-size:12pt; word-spacing:2px;color:green">Ваша стать:
+        <span style="color:black"><input type=radio name=pol value=жінка>жінка
+        <input type=radio name=pol value=чоловік>чоловік<br></span>
+        Ваш вік:
+        <span style="color:black"><input type=radio name=vik value=do20>до 20 років
+        <input type=radio name=vik value=po20>після 20 років<br></span>
+        </p>
+        <p style="font-family:Ariel; font-style:italic; font-variant:caps; font-size:12pt; word-spacing:2px;color:green">Ваше прізвище &nbsp<input type=text name=прізвище size=40 maxlength=20><br>
+        Ваше ім'я &nbsp<input type=text name=ім'я size=40 maxlength=20><br>
+        логін &nbsp<input type=text name=логін size=40 maxlength=20><br>
+        пароль &nbsp<input type=password name=пароль size=40 maxlength=20><br>
+        адрес &nbsp<input type=text name=адрес size=40 maxlength=20><br></p>
+        <textarea name=tekst cols=50 rows=3 wrap=off>Будь-ласка запишіть сюди Ваше запитання</textarea><br>
+        
+        <p style="font-family:Ariel; font-style:italic; font-variant:caps; font-size:12pt; word-spacing:2px;color:green">Чи зацікавив Вас наш університет?<br>
+        
+        <input type=checkbox name=yes>так<br>
+        <input type=checkbox name=no>ні<br>
+        <input type=checkbox name=vstup>хочу вступити<br>
+        <input type=checkbox name=nospec>немає потрібної мені спеціальності<br></p>
+        <input type=reset name=reset value=очистити&nbspформу ><br>
+        <input type=submit name=ok value=Ok ><br>
+        </form>
+    </body>        
 </html>
